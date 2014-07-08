@@ -1,0 +1,20 @@
+****************************
+ Powered By MCP:            
+ http://mcp.ocean-labs.de/  
+ Searge, ProfMobius, Fesh0r,
+ R4wk, ZeuX, IngisKahn      
+ MCP Data version : unknown
+****************************
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Failed to notify model configuration listener.
+> org.jetbrains.plugins.gradle.model.ModelBuilderService: Provider org.jetbrains.plugins.gradle.model.builder.ModelDependenciesBuilderImpl could not be instantiated: java.lang.NoClassDefFoundError: org/gradle/plugins/ide/internal/IdeDependenciesExtractor$IdeDependency
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 30.32 secs
